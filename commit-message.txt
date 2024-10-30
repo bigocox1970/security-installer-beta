@@ -1,0 +1,10 @@
+feat: add user profiles and nicknames
+
+- Add nickname field to user profiles
+- Create UserProfile component for viewing user details
+- Make author/uploader names clickable in posts, manuals, and standards
+- Show nicknames instead of full names across the app
+- Add proper SQL migrations for new fields
+- Fix TypeScript types and interfaces
+- Add proper error handling and loading states
+- Improve user experience with modal displays
