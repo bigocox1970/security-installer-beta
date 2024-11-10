@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+/* Base background colors */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: rgb(243, 244, 246);
+}
+
+#root {
+  min-height: 100vh;
+  background-color: rgb(243, 244, 246);
+}
+
+.dark body,
+.dark #root {
+  background-color: rgb(17, 24, 39);
+}
+
+/* Card backgrounds */
+.bg-white {
+  background-color: rgb(241, 242, 244);
+}
+
+.dark .bg-white {
+  background-color: rgb(31, 41, 55);
+}
+
+/* Sidebar and menu backgrounds */
+.bg-gray-100 {
+  background-color: rgb(237, 238, 240);
+}
+
+.dark .bg-gray-100 {
+  background-color: rgb(31, 41, 55);
+}
+
+/* Text colors */
+.text-gray-900 {
+  color: rgb(31, 41, 55);
+}
+
+.dark .text-gray-900 {
+  color: rgb(243, 244, 246);
+}
+
+/* Inputs */
+input, select, textarea {
+  background-color: rgb(249, 250, 251);
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: rgb(55, 65, 81);
+}
+
+/* Hover states */
+.hover\:bg-gray-50:hover {
+  background-color: rgb(245, 246, 248);
+}
+
+.dark .hover\:bg-gray-50:hover {
+  background-color: rgb(31, 41, 55);
+}
+
+.hover\:bg-gray-100:hover {
+  background-color: rgb(241, 242, 244);
+}
+
+.dark .hover\:bg-gray-100:hover {
+  background-color: rgb(55, 65, 81);
+}
+
+/* Button backgrounds */
+.bg-gray-100 {
+  background-color: rgb(237, 238, 240);
+}
+
+.dark .bg-gray-100 {
+  background-color: rgb(31, 41, 55);
+}
+
+/* Card hover states */
+.hover\:bg-gray-200:hover {
+  background-color: rgb(229, 231, 235);
+}
+
+.dark .hover\:bg-gray-200:hover {
+  background-color: rgb(55, 65, 81);
+}
+
+/* Hide scrollbar but maintain functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
